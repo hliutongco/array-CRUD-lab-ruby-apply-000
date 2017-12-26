@@ -5,6 +5,7 @@ def create_an_empty_array
 end
 
 #The create_an_array method returns an array with four elements
+
 def create_an_array
   ["oranges","apples","kiwis","mangos"]
 end
