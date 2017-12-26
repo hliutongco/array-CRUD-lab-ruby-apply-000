@@ -39,7 +39,7 @@ def remove_element_from_start_of_array(array)
 end
 
 #The retrieve_element_from_index method takes two arguments, the array and an index number
-#It uses bracket notation to retrieve the element at the index specified in index_number
+#It uses bracket notation to return the element at the index specified in index_number
 
 def retrieve_element_from_index(array, index_number)
   array[index_number]
