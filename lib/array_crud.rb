@@ -45,14 +45,17 @@ def retrieve_element_from_index(array, index_number)
   array[index_number]
 end
 
-#The retrieve_first_element_from_array method takes in the array arguments
+#The retrieve_first_element_from_array method takes the array argument
 #It uses bracket notation to return the first element, a.k.a. the element at the 0th index
 
 def retrieve_first_element_from_array(array)
   array[0]
 end
 
-#
+#The retrieve_last_element_from_array method takes the array arguments
+#It uses bracket notation to return the last element
+#The last element is determined by first finding the length of the array
+#Lastly it subtracts one from the array length in order to get the index number of the last element
 
 def retrieve_last_element_from_array(array)
   array[array.length-1]  
