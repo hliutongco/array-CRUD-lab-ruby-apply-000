@@ -17,6 +17,9 @@ def add_element_to_end_of_array(array, element)
   array << element
 end
 
+#The add_element_to_start_of_array method takes in two arguments, an array and an element
+#It uses the unshift method to add the element to the start of the array and then returns the new array
+
 def add_element_to_start_of_array(array, element)
   array.unshift(element)
 end
