@@ -46,7 +46,7 @@ def retrieve_element_from_index(array, index_number)
 end
 
 #The retrieve_first_element_from_array method takes in the array arguments
-#It uses bracket notation to return the first element, or the element at the 0th index
+#It uses bracket notation to return the first element, a.k.a. the element at the 0th index
 
 def retrieve_first_element_from_array(array)
   array[0]
