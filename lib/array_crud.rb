@@ -31,6 +31,9 @@ def remove_element_from_end_of_array(array)
   array.pop
 end
 
+#The remove_element_from_start_of_array method takes in the array argument
+#It uses the shift method to remove the first element of the array and then returns the removed element
+
 def remove_element_from_start_of_array(array)
   array.shift
 end
