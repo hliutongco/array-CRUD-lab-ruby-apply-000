@@ -58,5 +58,5 @@ end
 #Lastly it subtracts one from the array length in order to get the index number of the last element
 
 def retrieve_last_element_from_array(array)
-  array[array.length-1]  
+  array[array.length-1]
 end
