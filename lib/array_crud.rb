@@ -1,3 +1,5 @@
+#The create_an_empty_array method returns an empty array
+
 def create_an_empty_array
   []
 end
