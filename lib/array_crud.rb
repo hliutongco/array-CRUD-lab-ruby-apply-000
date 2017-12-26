@@ -52,7 +52,7 @@ def retrieve_first_element_from_array(array)
   array[0]
 end
 
-#The retrieve_last_element_from_array method takes the array arguments
+#The retrieve_last_element_from_array method takes the array argument
 #It uses bracket notation to return the last element
 #The last element is determined by first finding the length of the array
 #Lastly it subtracts one from the array length in order to get the index number of the last element
